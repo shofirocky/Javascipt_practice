@@ -175,3 +175,119 @@ let password = prompt("pass : ");
 login (username,password)
 */
 
+/*
+
+const arr = [3, 7, 2, 9, 5];
+
+const max = Math.max(...arr);
+const min = Math.min(...arr);
+
+console.log("Max:", max); // 9
+console.log("Min:", min); // 2
+*/
+
+//let numberoff = ["hello", 1,3,5,6,7];
+//console.log(numberoff[2]);
+
+/*
+
+const areas = ["amberkhana", "bondor", "subidbazar"];
+areas.push("zindabazar0", "mirabazar");
+console.log(areas);
+*/
+
+/*
+
+let firstname="shofi";
+let lastname="rocky";
+let text=`this is ${firstname}  & this is ${lastname}`;
+console.log(text);
+*/
+
+/*
+let one=10;
+let two = 20;
+let text = `text are: ${(one+two*1.539).toFixed(2)}`;
+console.log(text);
+*/
+
+/*
+const a = "b";
+const b = "b";
+if (a < b) {
+  // true
+  console.log(`${a} is less than ${b}`);
+} else if (a > b) {
+  console.log(`${a} is greater than ${b}`);
+} else {
+  console.log(`${a} and ${b} are equal.`);
+}
+  */
+
+/*
+//String practice
+let slen="abcdefgh";
+let slen2="ijklmnop";
+let longtext="hello world for programming";
+console.log(slen.length);
+console.log(slen.charAt(3));
+console.log(slen.at(2));
+console.log(slen.concat("",slen2));
+console.log(slen.slice(0,5));
+console.log(slen.slice(2));
+console.log(longtext.indexOf("world"));
+console.log(longtext.search("for"))
+console.log(longtext.startsWith('world'))
+console.log(longtext.startsWith("world",6))
+*/
+
+
+/*
+//Number practice 
+
+let numpractice=100;
+//cnsole.log(numpractice);
+let typecheck=numpractice.toString()
+console.log(typeof typecheck)
+console.log(numpractice.toString())
+*/
+
+
+
+//Function practice
+
+//function temp (farenhite){
+    //return (5/9) * (farenhite-32);
+
+//}
+
+//let temparature=temp(95);
+//console.log(temparature);
+
+
+//function plusminus(x, y=20){
+    //return x + y;
+//}
+//console.log(plusminus(5))
+
+//x= function(a,b){
+    //return a+b;
+//}
+//y=x(5,5);
+//console.log(y)
+
+
+const prompt = require("prompt-sync")();
+let num = parseInt(prompt("numbers: "))
+let text = prompt("enter text");
+let count= 0;
+//let vouels= prompt("enter vouel value: ")
+let vouels = "aeiouAEIOU";
+for (i=0; i<text.length; i++){
+    if (vouels.includes(text[i])){
+        count++;
+    }
+}
+console.log(count);
+console.log(typeof(num));
+
