@@ -111,3 +111,5 @@ const collectionmap= collection2.map(items => {
 console.log(collectionmap);
 
 
+
+
