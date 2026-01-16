@@ -75,6 +75,8 @@ companies.forEach((word, index)=>{
 });
 
 
+
+
 /*
 // 6. change "a" & "b" to "x" & "y"
 const collection5 = ['a', 'b', 'c', 'd', 'e'];
