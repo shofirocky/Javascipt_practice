@@ -26,6 +26,7 @@ console.log(d)
 */
 
 /*
+
 const prompt = require("prompt-sync")();
 const num1 = prompt("please enter num 1 : ");
 //const num2 = prompt("please enter num 1 : ");
@@ -290,4 +291,5 @@ for (i=0; i<text.length; i++){
 }
 console.log(count);
 console.log(typeof(num));
+
 
