@@ -50,7 +50,6 @@ function toSnakeCase(strn) {
     .replace(/\s+/g, "_");
 }
    
-
 const tosnake = toSnakeCase("THis IS all for STRing"); // "hello_world"
 console.log(tosnake);
  */
@@ -80,4 +79,5 @@ const successResponse = {
 };
 
 console.log(successResponse.status)
+
 console.log(successResponse.msg)
