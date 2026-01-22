@@ -43,7 +43,6 @@ for (let i=1; i <10; i++){
     console.log(i)
 
 }
-    
 
 
 */
@@ -291,5 +290,6 @@ for (i=0; i<text.length; i++){
 }
 console.log(count);
 console.log(typeof(num));
+
 
 
