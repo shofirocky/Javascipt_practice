@@ -4,6 +4,7 @@ let num1 = 20;
 const nums=num+num1;
 console.log(nums);
 
+
 let swaaap = num;
 num = num1;
 num1 = swaaap;
@@ -290,6 +291,7 @@ for (i=0; i<text.length; i++){
 }
 console.log(count);
 console.log(typeof(num));
+
 
 
 
