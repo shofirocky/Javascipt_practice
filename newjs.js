@@ -13,6 +13,7 @@ console.log(num1);
 */
 
 /*
+
 const prompt = require("prompt-sync")();
 const celsius = prompt("please enter:");
 const calculatefarenhite = (celsius*1.8)+32;
@@ -291,6 +292,7 @@ for (i=0; i<text.length; i++){
 }
 console.log(count);
 console.log(typeof(num));
+
 
 
 
