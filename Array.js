@@ -9,6 +9,7 @@ console.log("1. check for b existence: " +exist);
 
 
 // 2. loop each & log 
+
 const collection2 = ['a', 'b', 'c'];
 
 for (let i =0; i<collection2.length; i++){
@@ -46,6 +47,7 @@ const collection5 = ['a', 'b', 'c'];
 
 collection5[1]= "X";
 console.log (collection5);
+
 
 
 
