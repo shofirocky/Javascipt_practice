@@ -7,7 +7,6 @@ let lent= str.length;
 console.log (lent);
 
 
-
 // 2. find how many "i" exists
 let count = 0
 for (let i = 0; i<= str.length; i++){
@@ -83,5 +82,6 @@ const successResponse = {
 console.log(successResponse.status)
 
 console.log(successResponse.msg)
+
 
 
