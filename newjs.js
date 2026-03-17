@@ -20,6 +20,7 @@ const calculatefarenhite = (celsius*1.8)+32;
 console.log(calculatefarenhite);
 
 */
+
 /*
 const a= 1 , b = 3;
 d= b > a;
