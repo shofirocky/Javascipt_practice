@@ -16,7 +16,6 @@ for (let i =0; i<collection2.length; i++){
     console.log(" 2. loop each & log :" +collection2[i])
 }
 
-
 // 3. add "f" to the end and again in start
 const collection3 = ['a', 'b', 'c'];
 
