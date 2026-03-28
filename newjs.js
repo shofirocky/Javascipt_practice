@@ -14,6 +14,7 @@ console.log(num1);
 
 /*
 
+
 const prompt = require("prompt-sync")();
 const celsius = prompt("please enter:");
 const calculatefarenhite = (celsius*1.8)+32;
