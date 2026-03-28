@@ -7,7 +7,6 @@ const exist= collection1.includes("b");
 console.log("1. check for b existence: " +exist);
 
 
-
 // 2. loop each & log 
 
 const collection2 = ['a', 'b', 'c'];
