@@ -17,6 +17,7 @@ for(let i=0; i< get.length;i++){
 
 }
 
+
 // 2. find how many "i" exists
 const str = 'This is string';
 let count = 0
