@@ -20,7 +20,7 @@ for (let i = 0; i<= str.length; i++){
 console.log (count);
 
 
-
+ 
 // 3. replace the last "i" with "x"
 let rep= str.replace(/i/g, "x");
 console.log(rep);
